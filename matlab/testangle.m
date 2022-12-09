@@ -1,0 +1,39 @@
+clear
+clc
+close all
+
+GoldenAngle = 2*pi /(1+sqrt(5)); % [rad]
+rads = 128;
+
+subsample_1 = (1:8:rads)';
+subsample_2 = subsample_1;
+mid = floor(length(subsample_1)/2);
+subsample_2(mid:end) = subsample_2(mid:end)-1;
+
+figure('visible','on')
+tiledlayout(1, 2)
+ss1 = nexttile; hold on, axis square, grid on, box on
+ss2 = nexttile; hold on, axis square, grid on, box on
+for r = 0:rads-1
+    line(ss1,...
+         cos(r*GoldenAngle)*[-1, 1],...
+         sin(r*GoldenAngle)*[-1, 1],...
+         'color',0.75*[1, 1, 1]);
+    line(ss2,...
+         cos(r*GoldenAngle)*[-1, 1],...
+         sin(r*GoldenAngle)*[-1, 1],...
+         'color',0.75*[1, 1, 1]);
+end
+for r = subsample_1'-1
+    line(ss1,...
+         cos(r*GoldenAngle)*[-1, 1],...
+         sin(r*GoldenAngle)*[-1, 1],...
+         'color','r');
+end
+for r = subsample_2'-1
+    line(ss2,...
+         cos(r*GoldenAngle)*[-1, 1],...
+         sin(r*GoldenAngle)*[-1, 1],...
+         'color','b');
+end
+set(gcf,'visible','on')

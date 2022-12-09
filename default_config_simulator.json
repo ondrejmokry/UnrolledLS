@@ -1,0 +1,18 @@
+{
+    "datafold": "../../data",
+    "ResizeFactor": 0.8,
+    "SD_noise": 1e-4,
+    "rpf": 128,
+    "factor": 16,
+    "im_ovs": 2,
+    "no_sens": false,
+    "sampling": 2,
+    "Projections": 40000,
+    "r1": 3.2,
+    "R10": 1,
+    "TR": 0.0075,
+    "FA": 20,
+    "Nsamples": 64,
+    "delay": 15,
+    "krho": 0.01
+}

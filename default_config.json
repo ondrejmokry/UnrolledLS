@@ -1,0 +1,20 @@
+{
+    "K": 4,
+    "activation": "simple",
+    "batch_size": 4,
+    "cart": true,
+    "constraint": "relu",
+    "datafold": "../data",
+    "epochs": 100,
+    "iterations": 20,
+    "lambdaL": 2.0,
+    "lambdaS": 1.0,
+    "learnst": false,
+    "msescaled": true,
+    "normalize": true,
+    "rpf": 128,
+    "save": true,
+    "subsample": 8,
+    "tied": true,
+    "useGPU": true
+}

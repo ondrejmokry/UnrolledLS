@@ -28,7 +28,7 @@ datafold
 
 ## Data avalibility
 
-As the data are quite large, they can be obtained on request from the project coordinator Ondrej Mokry (xmokry12@vut.cz).
+As the data are quite large, they can be obtained on request from the project coordinator Ondřej Mokrý (xmokry12@vut.cz).
 
 ## Acknowledgement
 

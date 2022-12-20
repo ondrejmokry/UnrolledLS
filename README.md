@@ -15,16 +15,16 @@ Then it is possible to run the training and testing via a script (`/CP_pytorch/r
 ```
 datafold
 |
-|
 └───train
 |    |
 |    └─ (training dataset)
 |
 └───test
-     |
-     └─ (testing dataset)
+|     |
+|     └─ (testing dataset)
+|
+└─reco_XXXXXXXX(reconstructed data)
 ```
-
 
 ## Data avalibility
 

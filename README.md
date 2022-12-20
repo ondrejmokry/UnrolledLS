@@ -11,7 +11,7 @@ More detailed configuration, i.e. regularization parametrization can be also cha
 Then it is possible to run the training and testing via a script (`/CP_pytorch/reconstruction.py`), the process is acompanied by status info in the console. Results are then saved in the data folder in a new timestamped subfolder alongside the configuration used for the particular run.
 
 
-### Dataset folder structuer
+### Dataset folder structure
 ```
 datafold
 |
@@ -25,6 +25,12 @@ datafold
 |
 └─reco_XXXXXXXX(reconstructed data)
 ```
+
+### Supplementary material
+
+Besides the codes in `CP_pytorch`, the repository contains the following additional materials:
+- a brief decription of the derivation of the (unfolded) algorithm (the file `derivation.pdf`),
+- a Matlab plotting script `animation_of_unfolded.m`, which allows to load files saved by the testing procedure, animate the sequence and plot perfusion curves.
 
 ## Data avalibility
 
